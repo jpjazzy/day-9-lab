@@ -7,13 +7,21 @@ Secondary Color: #B77342
 Tertiac Color: #00A3B2
 */
 
-@import url('https://fonts.googleapis.com/css?family=Fascinate+Inline');
+@import url('https://fonts.googleapis.com/css?family=Russo+One');
 
 /* Tag element type styling */
 body {
   font-family: georgia, serif;
   background-color: #B24B00;
   color: #B77342;
+}
+
+nav ul li {
+  transition: 350ms all;
+}
+
+nav ul li:hover {
+  font-size: 150%;
 }
 
 header {
@@ -24,9 +32,11 @@ header {
 }
 
 h1 {
-  font-size: 26px;
-  margin-bottom: 5px;
+  font-size: 80px;
+  text-align: center;
+  margin-bottom: 31px;
   text-transform: uppercase;
+  border: 1px solid;
 }
 
 ul {
@@ -46,7 +56,6 @@ header section img {
 }
 
 header section li {
-  color: #fff;
   display: inline-block;
   margin-top: 45px;
   margin-right: 80px;
@@ -60,10 +69,12 @@ main {
 
 header a {
   color: #00A3B2;
+  text-decoration: none;
 }
 
 header a:checked {
   color: #00A3B2;
+  text-decoration: none;
 }
 
 fieldset {
@@ -91,7 +102,6 @@ button {
   cursor: pointer;
   margin-left: 20px;
   margin-bottom: 20px;
-  margin-left: 50%;
   font-size: 21px;
 }
 
@@ -122,9 +132,34 @@ form {
   border-radius: 3px;
 }
 
+img {
+  border-radius: 10px;
+  opacity: .7 ;
+  transition: 1s all;
+}
+
+img:hover {
+  opacity: 1;
+}
+
 /* Class tag type styling */
+ /* 960x450 imgs */
+.main-banner {
+  width: 960px;
+}
+
+/* 300x375 imgs */
+.sub-banners ul li img{
+  width: 300px;
+}
+
+.highlights img {
+  width: 375px;
+}
+
 .sub-banners li {
   float: left;
+  text-align: center;
   margin-right: 30px;
   margin-top: 30px;
 }
@@ -144,8 +179,14 @@ form {
   margin-bottom: 30px;
 }
 
+/* 480x375 imgs */
+.highlights div:first-child {
+  width: 480px;
+  height: 375px;
+}
+
 .highlights div {
-  font-family: 'Fascinate Inline';
+  font-family: 'Russo One';
   color: #B77342;
   margin-top: 30px;
   width: 300px;
@@ -153,7 +194,7 @@ form {
 }
 
 .highlights div h2 {
-  font-family: 'Fascinate Inline';
+  font-family: 'Russo One';
   color: #B77342;
   font-size: 26px;
   margin-bottom: 5px;
@@ -161,7 +202,7 @@ form {
 }
 
 .highlights div p {
-  font-family: 'Fascinate Inline';
+  font-family: 'Russo One';
   color: #B77342;
   line-height: 50px;
   height: 300px;
@@ -189,6 +230,7 @@ form {
   text-align: center;
   text-transform: uppercase;
   width: 400px;
+  text-shadow: -2px 2px 0px #00a3b2;
 }
 
 .data thead{
@@ -198,12 +240,18 @@ form {
   margin-bottom: 5px;
   text-transform: uppercase;
   text-transform: center;
+  text-shadow: -2px 2px 0px #00a3b2;
+}
+
+.data thead td:first-child {
+  background: #b24b00;
 }
 
 .text h2 {
-  font-size: 26px;
-  margin-bottom: 5px;
-  text-transform: uppercase;
+  font-size: 30px;
+  text-align: center;
+  background: #B24B00;
+  border-radius: 3px;
 }
 
 .data h2 {
@@ -213,7 +261,14 @@ form {
   border-radius: 3px;
 }
 
+.sub-banners-2 {
+  text-align: center;
+  clear: both;
+}
+
 /* ID tag type styling */
 #shell {
-  border: 5px solid #00A3B2;
+  border-collapse: inherit;
+  border-radius: 3px;
+  border: 1px solid #b77342;
 }
