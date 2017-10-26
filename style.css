@@ -1,0 +1,219 @@
+/* APP Styles *//* css styling */
+
+/*
+Complementary Colors for website:
+#B22700 (Dark orange)
+#FF4C19 (Light orange)
+#FF3800 (Mid orange)
+#00B27E (Dark teal)
+#00FFB4 (Light teal)
+*/
+@import url('https://fonts.googleapis.com/css?family=Fascinate+Inline');
+
+body {
+  font-family: georgia, serif;
+  background-color: #00B27E;
+  color: #B22700;
+}
+
+header {
+  background-color: #00B27E;
+  width: 100%;
+  height: 100px;
+  margin-bottom: 30px;
+}
+
+h1 {
+  font-size: 26px;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+}
+
+ul {
+  margin-bottom: 20px;
+}
+
+header section {
+  width: 960px;
+  margin: 0 auto;
+}
+
+header section img {
+  margin-top: 12px;
+  float: left;
+  margin-right: 20px;
+  width: 175px;
+}
+
+header section li {
+  color: #fff;
+  display: inline-block;
+  margin-top: 45px;
+  margin-right: 80px;
+  font-size: 20px;
+}
+
+main {
+  width: 960px;
+  margin: 30px auto;
+}
+
+header a {
+  color: #FF4C19;
+}
+
+header a:checked {
+  color: #FF4C19;
+}
+
+.sub-banners li {
+  float: left;
+  margin-right: 30px;
+  margin-top: 30px;
+}
+
+.sub-banners li:last-child {
+  margin-right: 0;
+}
+
+.highlights {
+  clear: both;
+}
+
+.highlights img {
+  float: left;
+  margin-top: 30px;
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+
+.highlights div {
+  font-family: 'Fascinate Inline';
+  color: #FF3800;
+  margin-top: 30px;
+  width: 300px;
+  float: left;
+}
+
+.highlights div h2 {
+  font-family: 'Fascinate Inline';
+  color: #FF3800;
+  font-size: 26px;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+}
+
+.highlights div p {
+  font-family: 'Fascinate Inline';
+  color: #FF3800;
+  line-height: 50px;
+  height: 300px;
+  overflow: auto;
+}
+
+button {
+  border: none;
+  padding: 8px 12px;
+  color: #00B27E;
+  background: #B22700;
+  font-size: 21px;
+  border-radius: 3px;
+}
+
+footer {
+  background-color: #00FFB4;
+  height: 150px;
+  clear: both;
+  text-align: center;
+}
+
+.data {
+  font-family: helvetica, sans-serif;
+  background-color: #004e37;
+  color: #FF4C19;
+  clear: both;
+  margin-bottom: 20px;
+}
+
+.text {
+  font-family: georgia, serif;
+  color: #B22700;
+}
+
+.data td:first-child {
+  background-color: #000000;
+  font-size: 18px;
+  text-align: center;
+  text-transform: uppercase;
+  width: 400px;
+}
+
+.data thead{
+  font-size: 19px;
+  background-color: #000000;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+  text-transform: center;
+}
+
+table, th, td, tr{
+  border: 5px solid #004e37;
+  height: 39px;
+  text-align: center;
+  transition: 350ms all;
+}
+
+td:hover{
+  font-size: 30px;
+  width: 70px;
+  height: 70px;
+}
+
+.text h2 {
+  font-size: 26px;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+}
+
+form {
+  margin-left: 20px;
+  margin-top: 20px;
+  width: 400px;
+  border-radius: 3px;
+  border: none;
+}
+
+.data h2 {
+  font-size: 30px;
+  text-align: center;
+  background: #000;
+  border-radius: 3px;
+}
+
+fieldset {
+  padding: 20px;
+}
+
+input[type="text"] {
+  padding: 7px;
+  border: solid 1px black;
+  border-radius: 3px;
+  float: right;
+}
+
+input[type="text"]:focus {
+  background: black;
+  color: white;
+}
+
+button {
+  background: #000;
+  color: #fff;
+  padding: 8px 18px;
+  border-radius: 3px;
+  border: none;
+  cursor: pointer;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  margin-left: 50%;
+}

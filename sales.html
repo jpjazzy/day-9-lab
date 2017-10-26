@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Meta data goes here -->
+    <title>Pats Salmon Cookies</title>
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body id="test">
+    <form id="shop_form" class="data">
+        <fieldset>
+          <h2>Add shop</h2>
+        </fieldset>
+        <fieldset>
+          <label for="shop_name">Shop name:</label>
+          <input type="text" name="shop_name" placeholder="enter your shop name" autocomplete="off" required />
+        </fieldset>
+        <fieldset>
+          <label for="min_cust">Minimum customers:</label>
+          <input type="text" name="min_cust" placeholder="min number of customers" autocomplete="off" required />
+        </fieldset>
+        <fieldset>
+          <label for="max_cust">Maximum customers:</label>
+          <input type="text" name="max_cust" placeholder="max number of customers" autocomplete="off" required />
+        </fieldset>
+        <fieldset>
+          <label for="avg_cookie_sale">Average cookie sales:</label>
+          <input type="text" name="avg_cookie_sale" placeholder="average cookie sales" autocomplete="off" required />
+        </fieldset>
+        <button id="submit_btn" type="submit">Add shop</button>
+    </form>
+
+
+    <table id="shell" class="data">
+      <thead id="table_head"></thead>
+      <!-- Developed in js -->
+
+      <tbody id="table_content"></tbody>
+      <!-- Developed in js -->
+    </table>
+
+    <script src="app.js"></script>
+  </body>
+</html>
