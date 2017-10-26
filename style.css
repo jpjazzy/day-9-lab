@@ -2,22 +2,22 @@
 
 /*
 Complementary Colors for website:
-#B22700 (Dark orange)
-#FF4C19 (Light orange)
-#FF3800 (Mid orange)
-#00B27E (Dark teal)
-#00FFB4 (Light teal)
+Primary Color: #B24B00
+Secondary Color: #B77342
+Tertiac Color: #00A3B2
 */
+
 @import url('https://fonts.googleapis.com/css?family=Fascinate+Inline');
 
+/* Tag element type styling */
 body {
   font-family: georgia, serif;
-  background-color: #00B27E;
-  color: #B22700;
+  background-color: #B24B00;
+  color: #B77342;
 }
 
 header {
-  background-color: #00B27E;
+  background-color: #B24B00;
   width: 100%;
   height: 100px;
   margin-bottom: 30px;
@@ -59,13 +59,70 @@ main {
 }
 
 header a {
-  color: #FF4C19;
+  color: #00A3B2;
 }
 
 header a:checked {
-  color: #FF4C19;
+  color: #00A3B2;
 }
 
+fieldset {
+  padding: 20px;
+}
+
+input[type="text"] {
+  padding: 7px;
+  border: solid 1px black;
+  border-radius: 3px;
+  float: right;
+}
+
+input[type="text"]:focus {
+  background: black;
+  color: white;
+}
+
+button {
+  color: #B24B00;
+  background: #00A3B2;
+  padding: 8px 18px;
+  border-radius: 3px;
+  border: none;
+  cursor: pointer;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  margin-left: 50%;
+  font-size: 21px;
+}
+
+footer {
+  background-color: #B24B00;
+  height: 150px;
+  clear: both;
+  text-align: center;
+}
+
+table, th, td, tr{
+  border: 5px solid #B24B00;
+  height: 39px;
+  text-align: center;
+  transition: 350ms all;
+}
+
+td:hover{
+  font-size: 30px;
+  width: 70px;
+  height: 70px;
+}
+
+form {
+  margin-left: 20px;
+  margin-top: 20px;
+  width: 400px;
+  border-radius: 3px;
+}
+
+/* Class tag type styling */
 .sub-banners li {
   float: left;
   margin-right: 30px;
@@ -89,7 +146,7 @@ header a:checked {
 
 .highlights div {
   font-family: 'Fascinate Inline';
-  color: #FF3800;
+  color: #B77342;
   margin-top: 30px;
   width: 300px;
   float: left;
@@ -97,7 +154,7 @@ header a:checked {
 
 .highlights div h2 {
   font-family: 'Fascinate Inline';
-  color: #FF3800;
+  color: #B77342;
   font-size: 26px;
   margin-bottom: 5px;
   text-transform: uppercase;
@@ -105,43 +162,29 @@ header a:checked {
 
 .highlights div p {
   font-family: 'Fascinate Inline';
-  color: #FF3800;
+  color: #B77342;
   line-height: 50px;
   height: 300px;
   overflow: auto;
 }
 
-button {
-  border: none;
-  padding: 8px 12px;
-  color: #00B27E;
-  background: #B22700;
-  font-size: 21px;
-  border-radius: 3px;
-}
-
-footer {
-  background-color: #00FFB4;
-  height: 150px;
-  clear: both;
-  text-align: center;
-}
-
 .data {
   font-family: helvetica, sans-serif;
-  background-color: #004e37;
-  color: #FF4C19;
+  background-color: #B24B00;
+  color: #B77342;
   clear: both;
   margin-bottom: 20px;
+  border: 2px solid #B77342;
 }
 
 .text {
   font-family: georgia, serif;
-  color: #B22700;
+  color: #B77342;
 }
 
 .data td:first-child {
-  background-color: #000000;
+  background-color: #B77342;
+  color: #B24B00;
   font-size: 18px;
   text-align: center;
   text-transform: uppercase;
@@ -150,23 +193,11 @@ footer {
 
 .data thead{
   font-size: 19px;
-  background-color: #000000;
+  background-color: #B77342;
+  color: #B24B00;
   margin-bottom: 5px;
   text-transform: uppercase;
   text-transform: center;
-}
-
-table, th, td, tr{
-  border: 5px solid #004e37;
-  height: 39px;
-  text-align: center;
-  transition: 350ms all;
-}
-
-td:hover{
-  font-size: 30px;
-  width: 70px;
-  height: 70px;
 }
 
 .text h2 {
@@ -175,45 +206,14 @@ td:hover{
   text-transform: uppercase;
 }
 
-form {
-  margin-left: 20px;
-  margin-top: 20px;
-  width: 400px;
-  border-radius: 3px;
-  border: none;
-}
-
 .data h2 {
   font-size: 30px;
   text-align: center;
-  background: #000;
+  background: #B24B00;
   border-radius: 3px;
 }
 
-fieldset {
-  padding: 20px;
-}
-
-input[type="text"] {
-  padding: 7px;
-  border: solid 1px black;
-  border-radius: 3px;
-  float: right;
-}
-
-input[type="text"]:focus {
-  background: black;
-  color: white;
-}
-
-button {
-  background: #000;
-  color: #fff;
-  padding: 8px 18px;
-  border-radius: 3px;
-  border: none;
-  cursor: pointer;
-  margin-left: 20px;
-  margin-bottom: 20px;
-  margin-left: 50%;
+/* ID tag type styling */
+#shell {
+  border: 5px solid #00A3B2;
 }
