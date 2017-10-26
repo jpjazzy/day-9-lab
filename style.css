@@ -16,6 +16,13 @@ body {
   color: #B77342;
 }
 
+i {
+  border: solid #00A3B2;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
 nav ul li {
   transition: 350ms all;
 }
@@ -231,9 +238,11 @@ img:hover {
   text-transform: uppercase;
   width: 400px;
   text-shadow: -2px 2px 0px #00a3b2;
+  border: 1px solid #00a3b2;
 }
 
 .data thead{
+  border: 1px solid #00a3b2;
   font-size: 19px;
   background-color: #B77342;
   color: #B24B00;
@@ -245,6 +254,7 @@ img:hover {
 
 .data thead td:first-child {
   background: #b24b00;
+  border: none;
 }
 
 .text h2 {
@@ -266,9 +276,39 @@ img:hover {
   clear: both;
 }
 
+.up {
+    transform: rotate(-135deg);
+    display: none;
+}
+
+.down {
+    transform: rotate(45deg);
+}
+
 /* ID tag type styling */
 #shell {
   border-collapse: inherit;
   border-radius: 3px;
   border: 1px solid #b77342;
+  border-spacing: 3px;
+}
+
+#misc_images {
+  border: 2px solid #b77342;
+  padding: 3px;
+  border-radius: 3px;
+}
+
+#misc_images h2 {
+  font-size: 30px;
+  text-align: center;
+}
+
+#misc_images p {
+  text-align: center;
+  cursor: pointer;
+}
+
+#misc_images ul {
+  display: none;
 }

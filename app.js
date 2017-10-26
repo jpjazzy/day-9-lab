@@ -67,7 +67,7 @@ var dispShops = function (shopObj) {
       '<td>' + arrOfTimes[i] + '</td>'
     );
   }
-  data.push('total cookies sold'); //add last row
+  data.push('<td>total cookies sold</td>'); //add last row
 
   //append row of headings for times
   var tableHeaderContent = data.join('');
@@ -88,7 +88,7 @@ var dispShops = function (shopObj) {
       );
       totalCookieCounter += arrOfStoresCookies[j][i];
     }
-    data.push(totalCookieCounter); //add last value for total cookies
+    data.push('<td>' + totalCookieCounter + '</td>'); //add last value for total cookies
 
     //append row of headings for times
     var tableCookieContent = data.join('');
@@ -138,8 +138,6 @@ function formData(event) {
 
   form.reset();
 }
-
-
 
 //submit form on submit enter or button click
 form.addEventListener('submit', formData);
