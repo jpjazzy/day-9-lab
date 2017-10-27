@@ -278,11 +278,28 @@ img:hover {
 
 .up {
     transform: rotate(-135deg);
-    display: none;
 }
 
 .down {
     transform: rotate(45deg);
+}
+
+.active {
+  display: block;
+  transition: 1s;
+}
+
+.inactive {
+  display: none;
+  transition: 1s;
+}
+
+.activearrow {
+  display: inline-block;
+}
+
+.inactivearrow {
+  display: none;
 }
 
 /* ID tag type styling */
@@ -297,6 +314,7 @@ img:hover {
   border: 2px solid #b77342;
   padding: 3px;
   border-radius: 3px;
+  transition: 1s all;
 }
 
 #misc_images h2 {
@@ -307,8 +325,4 @@ img:hover {
 #misc_images p {
   text-align: center;
   cursor: pointer;
-}
-
-#misc_images ul {
-  display: none;
 }
