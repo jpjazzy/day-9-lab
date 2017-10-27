@@ -286,12 +286,12 @@ img:hover {
 
 .active {
   display: block;
-  transition: 1s;
+  transition: 1s all;
 }
 
 .inactive {
   display: none;
-  transition: 1s;
+  transition: 1s all;
 }
 
 .activearrow {
