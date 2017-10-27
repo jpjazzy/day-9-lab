@@ -9,6 +9,12 @@ Tertiac Color: #00A3B2
 
 @import url('https://fonts.googleapis.com/css?family=Russo+One');
 
+@keyframes tobottom
+{
+    from {active: 0px;}
+    to {active: 1000px;}
+}
+
 /* Tag element type styling */
 body {
   font-family: georgia, serif;
@@ -287,14 +293,13 @@ img:hover {
 .active {
   max-height: 1000px;
   overflow: hidden;
-  display: block;
-  transition: linear 1s;
+  transition: 1s all;
 }
 
 .inactive {
-  height: 0;
-  display: none;
-  transition: linear 1s;
+  max-height: 0px;
+  overflow: hidden;
+  transition: 1s all;
 }
 
 .activearrow {
